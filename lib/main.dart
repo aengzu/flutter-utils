@@ -4,11 +4,16 @@ import 'package:provider/provider.dart';
 import 'Utils/01. googlemap_marker.dart';
 import 'package:sizer/sizer.dart';
 
+import 'Utils/02. bottom_navbar.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return GooglemapMarkerScreen();
+    return const MaterialApp(
+      title: 'CustomBottmBar',
+      home: CustomBottomNavbar(),
+    );
   }
 }
