@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_utils/Screens/01. googlemap_marker_screen.dart';
+import 'package:flutter_utils/Screens/04.list_view.dart';
 import 'package:provider/provider.dart';
+import 'Screens/05. listview_deathnote.dart';
 import 'Utils/01. googlemap_marker.dart';
 import 'package:sizer/sizer.dart';
 
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'CustomBottmBar',
-      home: GridViewExample(),
+      home: ListViewEx(),
     );
   }
 }
