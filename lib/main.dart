@@ -5,7 +5,7 @@ import 'Utils/01. googlemap_marker.dart';
 import 'package:sizer/sizer.dart';
 
 import 'Utils/02. bottom_navbar.dart';
-import 'Utils/03.gird_view.dart';
+import 'Screens/03.gird_view.dart';
 
 void main() => runApp(MyApp());
 
